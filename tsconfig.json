@@ -4,6 +4,7 @@
     "target": "esnext",
     "moduleResolution": "node",
     "declaration": true,
+    "declarationMap": true,
     "declarationDir": "dist",
     "outDir": "dist",
     "preserveConstEnums": true,
