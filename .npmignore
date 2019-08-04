@@ -2,3 +2,6 @@ src
 test
 yarn-error.log
 .vscode
+webpack.config.js
+tsconfig.json
+stats.json
