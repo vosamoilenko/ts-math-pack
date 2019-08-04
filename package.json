@@ -5,8 +5,9 @@
   "types": "dist/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "gitlab+https://gitlab.com/vosamoilenko/ts-math-pack"
+    "url": "git+https://github.com/vosamoilenko/ts-math-pack.git"
   },
+  "bugs": "https://github.com/vosamoilenko/ts-math-pack/issues",
   "author": {
     "name": "Volodymyr Samoilenko",
     "email": "samoilenkovolodymyr@gmail.com"
@@ -17,7 +18,8 @@
     "watch:build": "webpack --watch",
     "analyze": "yarn build && webpack-bundle-analyzer dist/stats.json",
     "test": "jest --watchAll",
-    "test:debug": "node --inspect node_modules/.bin/jest --watch --runInBand"
+    "test:debug": "node --inspect node_modules/.bin/jest --watch --runInBand",
+    "postpublish": "git push --tags"
   },
   "devDependencies": {
     "@types/jest": "^24.0.16",
