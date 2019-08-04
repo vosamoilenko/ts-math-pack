@@ -1,0 +1,1 @@
+[![Build Status](https://travis-ci.org/vosamoilenko/ts-math-pack.svg?branch=master)](https://travis-ci.org/vosamoilenko/ts-math-pack)
