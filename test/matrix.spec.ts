@@ -507,21 +507,22 @@ describe('test matrix', () => {
   // And C ← A * B
   // Then C * inverse(B) = A
   it('Multiplying a product by its inverse', () => {
-    const a = new Matrix(4, 4, [
+    const A = new Matrix(4, 4, [
       [3, -9, 7, 3],
       [3, -8, 2, -9],
       [-4, 4, 4, 1],
       [-6, 5, -1, 1],
     ])
-    const b = new Matrix(4, 4, [
+    const B = new Matrix(4, 4, [
       [8, 2, 2, 2],
       [3, -1, 7, 0],
       [7, 0, 5, 4],
       [6, -2, 0, 5],
     ])
 
-    const c = a.multiply(b)
-    const bInverse = Matrix.inverse(b)
-    expect(c.multiply(bInverse).equal(a)).toEqual(true)
+    const C = A.multiply(B) as Matrix
+    const Bi = Matrix.inverse(B)
+    const CxBi = C.multiply(Bi) as Matrix
+    expect(CxBi.equal(A)).toEqual(true)
   })
 })

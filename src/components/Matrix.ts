@@ -94,8 +94,8 @@ export class Matrix {
     }
   }
 
-  multiply(target: Matrix): XOR<Matrix, Point> {
-    const result = this.multiplyMatrix(target)
+  multiply(target: XOR<Matrix, Tupel>): XOR<Matrix, Point> {
+    const result = this.multiplyMatrix(target as Matrix)
 
     return result
   }

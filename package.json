@@ -17,7 +17,8 @@
     "build": "yarn && webpack --mode=production --progress",
     "watch:build": "webpack --watch",
     "analyze": "yarn build && webpack-bundle-analyzer dist/stats.json",
-    "test": "jest --watchAll",
+    "test": "jest",
+    "test:watch": "jest --watchAll",
     "test:debug": "node --inspect node_modules/.bin/jest --watch --runInBand",
     "postpublish": "git push --tags"
   },
