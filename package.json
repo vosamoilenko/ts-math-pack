@@ -1,8 +1,8 @@
 {
   "name": "ts-math-pack",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "dist/main.js",
-  "types" : "dist/index.d.ts",
+  "types": "dist/index.d.ts",
   "repository": {
     "type": "git",
     "url": "gitlab+https://gitlab.com/vosamoilenko/ts-math-pack"
