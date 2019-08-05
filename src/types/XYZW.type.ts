@@ -1,4 +1,4 @@
-export interface XYWZ {
+export interface XYZW {
   x: number
   y: number
   z: number

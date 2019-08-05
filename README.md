@@ -1,4 +1,4 @@
-# ts-math-pack
+# (WIP) ts-math-pack
 
 Math library
 
@@ -13,7 +13,6 @@ Math library
 [![Github stars](https://badgen.net/github/stars/vosamoilenko/ts-math-pack)](https://github.com/vosamoilenko/ts-math-pack/stargazers)
 
 [![Minified and gzipped size](https://badgen.net/bundlephobia/minzip/ts-math-pack?color=orange)](https://bundlephobia.com/result?p=ts-math-pack)
-![Dependencies](https://badgen.net/david/dep/maninak/ts-math-pack?color=orange)
 
 # API
 

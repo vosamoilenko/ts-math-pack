@@ -1,7 +1,7 @@
-import { XYWZ } from '../types/XYZW'
+import { XYZW } from '../types'
 import { EPSILON } from '../constants/math'
 
-export class Tupel implements XYWZ {
+export class Tupel implements XYZW {
   x: number
   y: number
   z: number
